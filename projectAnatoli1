@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+struct Name{
+  int age;
+  string name;
+}
+
+int main(){
+  Name people[10];
+  for(int i=0;i<10;i++){
+    cout<<"input age people<<'['<<i<<']'; int age; cin>>age; people[i].age=age;
+     cout<<"input name people<<'['<<i<<']'; string name; cin>>name; people[i].name=name;
+  }
+  
+}
